@@ -6,20 +6,18 @@ This is a simple Chatbot with a clean and minimal frontend. The Chatbot is power
 1. Clone the repository:
 ```bash
 git clone https://github.com/potatopotati/Simple-Chatbot.git
-```
-2. Navigate into the project directory:
-```bash
+
 cd Simple-Chatbot
 ```
-### Download libraries  
+2. Install dependencies
 ```bash
 pip install streamlit python-dotenv openai langchain-core
 ```
-### Set your Perplexity API key
+3. Set your Perplexity API key
 ```bash
 API_KEY=your-perplexity-api-key
 ```
-### Run the app
+4. Run the app
 ```bash
 streamlit run src/app.py
 ```
