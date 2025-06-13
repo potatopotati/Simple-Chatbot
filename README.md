@@ -11,6 +11,10 @@ git clone https://github.com/potatopotati/Simple-Chatbot.git
 ```bash
 cd Simple-Chatbot
 ```
+### Download libraries  
+```bash
+pip install streamlit python-dotenv openai langchain-core
+```
 ### Set your Perplexity API key
 ```bash
 API_KEY=your-perplexity-api-key
