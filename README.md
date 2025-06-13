@@ -11,3 +11,11 @@ git clone https://github.com/potatopotati/Simple-Chatbot.git
 ```bash
 cd Simple-Chatbot
 ```
+### Set your Perplexity API key
+```bash
+API_KEY=your-perplexity-api-key
+```
+### Run the app
+```bash
+streamlit run src/app.py
+```
